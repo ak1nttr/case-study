@@ -1,0 +1,33 @@
+**Student
+  -name (String)
+  -studentId (long)
+  -grade (int)
+
+  // methods
+  add student
+  delete student
+  update student
+  get student by id
+  get all students
+
+**Course
+  -name (String)
+  -courseId (long)
+  -credit (int)
+
+
+  //methods
+  add course
+  delete course
+  update course
+  get course by id
+  get all courses
+
+**Exam
+  -examId (long)
+  -name (String)
+  -date (Date)
+  -duration (double)(minutes)
+  -course (Course)
+
+  //similar methods
